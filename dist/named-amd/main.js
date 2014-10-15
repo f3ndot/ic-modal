@@ -316,7 +316,8 @@ define("ic-modal/modal",
         'aria-labelledby',
         'is-open',
         'role',
-        'tabindex'
+        'tabindex',
+        'onclick'
       ],
 
       /**
@@ -354,6 +355,23 @@ define("ic-modal/modal",
        */
 
       tabindex: 0,
+
+      /**
+       * iOS browsers will only generate a click event when a particular DOM
+       * element has a specific binding to it or if it has `cursor: pointer`
+       * styling applied to it.
+       * 
+       * Ember's `.on('click')` is not sufficient for iOS' browsers, so
+       * using the `onclick` attribute on the modal DOM element is used.
+       * 
+       * The contents is a noop, but it will still cause iOS browsers to
+       * generate a click event, to which `closeOnClick` will respond to.
+       * 
+       * @property onclick
+       * @private
+       */
+      
+      onclick: '/* no-op for iOS Safari */',
 
       /**
        * Tells the screenreader not to read this when closed.
