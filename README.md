@@ -11,7 +11,7 @@ You can see all patches I've applied to upstream by reviewing the [pull requests
 Fork: [![Build Status](https://travis-ci.org/f3ndot/ic-modal.svg)](https://travis-ci.org/f3ndot/ic-modal)
 Upstream: [![Build Status](https://travis-ci.org/instructure/ic-modal.png?branch=master)](https://travis-ci.org/instructure/ic-modal)
 
-Demo
+Demo (of Upstream's)
 ----
 
 http://instructure.github.io/ic-modal
