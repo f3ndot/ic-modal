@@ -1,9 +1,15 @@
 ic-modal
 ========
 
-[![Build Status](https://travis-ci.org/instructure/ic-modal.png?branch=master)](https://travis-ci.org/instructure/ic-modal)
-
 [WAI-ARIA][wai-aria] accessible modal dialog component for [Ember.js][ember].
+
+f3ndot/ic-modal Modifications
+---
+
+You can see all patches I've applied to upstream by reviewing the [pull requests on this repo](https://github.com/f3ndot/ic-modal/pulls?q=is%3Apr).
+
+Fork: [![Build Status](https://travis-ci.org/f3ndot/ic-modal.svg)](https://travis-ci.org/f3ndot/ic-modal)
+Upstream: [![Build Status](https://travis-ci.org/instructure/ic-modal.png?branch=master)](https://travis-ci.org/instructure/ic-modal)
 
 Demo
 ----
